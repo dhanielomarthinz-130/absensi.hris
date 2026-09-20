@@ -1,0 +1,16 @@
+# SQLite Database
+database/app.sqlite
+database/*.sqlite-journal
+
+# Uploads
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+uploads/surat_dokter/*
+!uploads/surat_dokter/.gitkeep
+!uploads/surat_dokter/sample_surat_dokter.svg
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
