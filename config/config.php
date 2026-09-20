@@ -8,7 +8,7 @@ if (session_status() === PHP_SESSION_NONE) {
 date_default_timezone_set('Asia/Jakarta');
 
 // Nama Aplikasi
-define('APP_NAME', 'Schedule IEG');
+define('APP_NAME', 'HRIS IEG');
 define('APP_TAGLINE', 'Sistem Manajemen Roster Shift & Presensi');
 
 // URL Base Path (kompatibel ganda: Apache XAMPP subfolder /jadwal.absensi atau PHP built-in server root)

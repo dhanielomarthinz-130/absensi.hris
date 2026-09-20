@@ -376,7 +376,7 @@ if (!$drawerUser) {
                         <i class="ti ti-calendar-time"></i>
                     </div>
                     <h4 style="margin: 0; font-size: 1.15rem; font-weight: 800; color: #ffffff;">
-                        Sistem Jadwal & Presensi
+                        <?= APP_NAME ?>
                     </h4>
                     <div style="font-size: 0.725rem; color: #c7d2fe; margin-top: 2px;">
                         Enterprise Roster & Attendance Portal

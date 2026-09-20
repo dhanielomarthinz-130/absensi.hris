@@ -29,7 +29,7 @@ if ($role === 'supervisor' || $role === 'admin' || $role === 'superadmin') {
                 <i class="ti ti-calendar-time"></i>
             </div>
             <div>
-                <div class="brand-name">Schedule IEG</div>
+                <div class="brand-name"><?= APP_NAME ?></div>
                 <div class="brand-sub">Shift & Kehadiran</div>
             </div>
         </div>

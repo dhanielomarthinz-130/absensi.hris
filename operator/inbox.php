@@ -80,7 +80,7 @@ require_once __DIR__ . '/../templates/header.php';
                             <i class="ti ti-chevron-right" style="transform: scaleX(-1); font-size: 1.25rem;"></i>
                         </div>
                         <div class="talenta-inbox-details">
-                            <div class="talenta-inbox-sender">Schedule IEG</div>
+                            <div class="talenta-inbox-sender"><?= APP_NAME ?></div>
                             <div class="talenta-inbox-message">Presensi keluar (Clock Out) berhasil disubmit (<?= substr($att['clock_out'], 0, 5) ?> WIB)</div>
                             <div class="talenta-inbox-sublabel">Status presensi diperbarui &bull; <?= $formattedDate ?></div>
                         </div>
@@ -95,7 +95,7 @@ require_once __DIR__ . '/../templates/header.php';
                             <i class="ti ti-chevron-right" style="transform: scaleX(-1); font-size: 1.25rem;"></i>
                         </div>
                         <div class="talenta-inbox-details">
-                            <div class="talenta-inbox-sender">Schedule IEG</div>
+                            <div class="talenta-inbox-sender"><?= APP_NAME ?></div>
                             <div class="talenta-inbox-message">Presensi masuk (Clock In) berhasil disubmit (<?= substr($att['clock_in'], 0, 5) ?> WIB)</div>
                             <div class="talenta-inbox-sublabel">Status presensi diperbarui &bull; <?= $formattedDate ?></div>
                         </div>
@@ -139,7 +139,7 @@ require_once __DIR__ . '/../templates/header.php';
                     <i class="ti ti-chevron-right" style="transform: scaleX(-1); font-size: 1.25rem;"></i>
                 </div>
                 <div class="talenta-inbox-details">
-                    <div class="talenta-inbox-sender">Schedule IEG</div>
+                    <div class="talenta-inbox-sender"><?= APP_NAME ?></div>
                     <div class="talenta-inbox-message">Presensi masuk (Clock In) berhasil disubmit</div>
                     <div class="talenta-inbox-sublabel">Status presensi diperbarui &bull; Hari ini</div>
                 </div>
@@ -155,7 +155,7 @@ require_once __DIR__ . '/../templates/header.php';
                 <div class="talenta-inbox-details">
                     <div class="talenta-inbox-sender">SUPERVISOR HR</div>
                     <div class="talenta-inbox-message">Pengajuan permohonan izin/cuti kerja Anda telah disetujui</div>
-                    <div class="talenta-inbox-sublabel">Pengajuan Izin Disetujui &bull; Schedule IEG</div>
+                    <div class="talenta-inbox-sublabel">Pengajuan Izin Disetujui &bull; <?= APP_NAME ?></div>
                 </div>
                 <i class="ti ti-chevron-right" style="color: #94a3b8; font-size: 1.15rem;"></i>
             </a>
@@ -165,9 +165,9 @@ require_once __DIR__ . '/../templates/header.php';
                     <i class="ti ti-chevron-right" style="transform: scaleX(-1); font-size: 1.25rem;"></i>
                 </div>
                 <div class="talenta-inbox-details">
-                    <div class="talenta-inbox-sender">Schedule IEG</div>
+                    <div class="talenta-inbox-sender"><?= APP_NAME ?></div>
                     <div class="talenta-inbox-message">Presensi keluar (Clock Out) berhasil disubmit</div>
-                    <div class="talenta-inbox-sublabel">Status presensi diperbarui &bull; Schedule IEG</div>
+                    <div class="talenta-inbox-sublabel">Status presensi diperbarui &bull; <?= APP_NAME ?></div>
                 </div>
                 <i class="ti ti-chevron-right" style="color: #94a3b8; font-size: 1.15rem;"></i>
             </a>
@@ -177,9 +177,9 @@ require_once __DIR__ . '/../templates/header.php';
                     <i class="ti ti-chevron-right" style="transform: scaleX(-1); font-size: 1.25rem;"></i>
                 </div>
                 <div class="talenta-inbox-details">
-                    <div class="talenta-inbox-sender">Schedule IEG</div>
+                    <div class="talenta-inbox-sender"><?= APP_NAME ?></div>
                     <div class="talenta-inbox-message">Roster jadwal shift minggu ini telah diperbarui oleh atasan</div>
-                    <div class="talenta-inbox-sublabel">Jadwal Shift &bull; Schedule IEG</div>
+                    <div class="talenta-inbox-sublabel">Jadwal Shift &bull; <?= APP_NAME ?></div>
                 </div>
                 <i class="ti ti-chevron-right" style="color: #94a3b8; font-size: 1.15rem;"></i>
             </a>
